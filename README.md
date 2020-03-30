@@ -30,5 +30,8 @@ Installation of Jupyter in AWS
 6. Adding the virtual environment
 * python3 -m ipykernel install --user --name=training
 
+7. Other commands
+* Getting list of packages: pip freeze -> file.txt
+
 
 
