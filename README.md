@@ -23,14 +23,12 @@ Installation of Jupyter in AWS
 
 5. Creating a virtual environment
 * conda create -n training_env python=3.6
+* python3 -m ipykernel install --user --name=training //adding the new env to Jupyter menu
 * source ~/anaconda3/etc/profile.d/conda.sh
 * conda activate env_name
 * pip3 install -r requirements.txt
 
-6. Adding the virtual environment
-* python3 -m ipykernel install --user --name=training
-
-7. Other commands
+6. Other commands
 * Getting list of packages: pip freeze -> file.txt
 
 
